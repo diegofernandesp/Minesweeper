@@ -225,7 +225,6 @@ function createGame(clickListener, sounds) {
     clickListener.subscribe(ckeckAll)
     clickListener.subscribe(changeMark)
     clickListener.subscribe(highlightBorders)
-    //clickListener.subscribe(unmarkBorders)
 
     return {
         state,
