@@ -44,10 +44,6 @@ function createClickListener(){
         executeCommand("mark-borders", e)
     })
     
-    // document.addEventListener("mouseout", (e) => {  
-    //     executeCommand("unmark-borders", e)
-    // })
-    
     document.addEventListener("contextmenu", (e) => {
         executeCommand("right-click", e)
         e.preventDefault()
